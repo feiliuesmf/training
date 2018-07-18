@@ -1,1 +1,42 @@
 Repo contains examples, makefiles for training purpose.
+
+%-----------------------------------------------
+On Maury:
+module load intel/xe_2017.1.043
+module load netcdf-2017/4.6.1-with-hdf5
+module load esmf/esmf-2018-intel-impi
+gmake
+mpirun -np 4 ./helloworld
+
+
+%-----------------------------------------------
+On Gordon:
+
+module unload PrgEnv-cray
+module load PrgEnv-intel
+module load cray-netcdf
+module load cray-hdf5/1.10.0.1
+export ESMFMKFILE=/p/home/feiliu/ESMF/esmf/DEFAULTINSTALLDIR/lib/libg/Unicos.intel.64.mpi.default/esmf.mk
+
+gmake
+
+#!/bin/ksh
+#PBS -S /bin/ksh
+#PBS -o log.out
+#PBS -j oe
+#PBS -l walltime=00:05:00
+#PBS -N proto
+#PBS -l select=1:ncpus=8
+#PBS -q debug
+#PBS -A ONRDC4048A483  !Use your own account number
+#PBS -V
+#
+umask 022
+set -x
+#
+
+rm -f PET* log.* core
+aprun -n 4 ./helloworld
+
+date
+
