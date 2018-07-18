@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/p/esmfcontrib/svn/!svn/ver/729/NUOPC/trunk/AtmOcnProto
+END
+esm.F90
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/esmfcontrib/svn/!svn/ver/729/NUOPC/trunk/AtmOcnProto/esm.F90
+END
+esmApp.F90
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/esmfcontrib/svn/!svn/ver/713/NUOPC/trunk/AtmOcnProto/esmApp.F90
+END
+ocn.F90
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/esmfcontrib/svn/!svn/ver/713/NUOPC/trunk/AtmOcnProto/ocn.F90
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/p/esmfcontrib/svn/!svn/ver/717/NUOPC/trunk/AtmOcnProto/README
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/esmfcontrib/svn/!svn/ver/578/NUOPC/trunk/AtmOcnProto/Makefile
+END
+atm.F90
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/esmfcontrib/svn/!svn/ver/713/NUOPC/trunk/AtmOcnProto/atm.F90
+END
