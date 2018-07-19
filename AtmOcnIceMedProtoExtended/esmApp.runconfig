@@ -1,0 +1,17 @@
+# Encoding a simple run sequence
+runSeq::
+    @900          # 15min time step 
+      MED
+      ATM -> OCN
+      OCN -> ATM
+      ATM
+      @300   # 5 min
+	OCN
+     	ICE
+      @	
+    @
+::
+
+verbose:.T.
+atm_active:
+  

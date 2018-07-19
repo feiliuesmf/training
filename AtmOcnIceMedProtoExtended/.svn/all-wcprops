@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/esmfcontrib/svn/!svn/ver/720/NUOPC/tags/ESMF_7_1_0r/AtmOcnProto
+END
+esm.F90
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/p/esmfcontrib/svn/!svn/ver/720/NUOPC/tags/ESMF_7_1_0r/AtmOcnProto/esm.F90
+END
+esmApp.F90
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/p/esmfcontrib/svn/!svn/ver/720/NUOPC/tags/ESMF_7_1_0r/AtmOcnProto/esmApp.F90
+END
+ocn.F90
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/p/esmfcontrib/svn/!svn/ver/720/NUOPC/tags/ESMF_7_1_0r/AtmOcnProto/ocn.F90
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/p/esmfcontrib/svn/!svn/ver/720/NUOPC/tags/ESMF_7_1_0r/AtmOcnProto/README
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/p/esmfcontrib/svn/!svn/ver/720/NUOPC/tags/ESMF_7_1_0r/AtmOcnProto/Makefile
+END
+atm.F90
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/p/esmfcontrib/svn/!svn/ver/720/NUOPC/tags/ESMF_7_1_0r/AtmOcnProto/atm.F90
+END
